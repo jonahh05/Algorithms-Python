@@ -43,7 +43,7 @@ class Node:
         except ContainsLoopError:
             return True
 
-
+#THIS IS A TEST TO MAKE SURE I"M NOT DUMB
 if __name__ == "__main__":
     root_node = Node(1)
     root_node.next_node = Node(2)
